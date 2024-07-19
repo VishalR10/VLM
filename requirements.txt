@@ -8,4 +8,4 @@ timm
 einops
 packaging
 datasets
-huggingface_hub = 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
+huggingface_hub 
