@@ -51,3 +51,45 @@ Before installing, ensure you have the following dependencies:
 git clone https://github.com/yourusername/recipe-suggestion-api.git
 cd recipe-suggestion-api
 ```
+
+### Step 2: Create a Virtual Environment
+
+```bash
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+```
+
+### Step 3: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Set Up Environment Variables
+
+Create a .env file in the root directory based on the env_sample file provided. Fill in your API keys and database information.
+
+```bash
+GEMINI_API_KEY=<your-api-key>
+MONGO_URI=<mongo-connection-url>
+MONGO_DB=<db-name>
+SEARCH_ENGINE_ID=<programmable-search-engine-id>
+GOOGLE_API_KEY=<google-cloud-console-api>
+```
+
+### Step 5: Run the Application
+
+```bash
+python main.py
+```
+
+## Usage
+
+Once the application is running, you can access the API at `http://127.0.0.1:5010`.
+
+### Example Requests
+
+- **Health Check**:
+  ```bash
+  curl http://127.0.0.1:5010/health_check
+  ```
