@@ -10,10 +10,9 @@
 - **User-Friendly Interface:** Simple and intuitive design that focuses on user experience.
 
 ## Overview of Code
--
-A Flask web application that interacts with a generative AI model, likely Google's Gemini model, to generate and manage recipes based on user input. Here's a detailed breakdown of the code and its components.This application has several functionalities, including:
+  A Flask web application that interacts with a generative AI model, likely Google's Gemini model, to generate and manage recipes based on user input. Here's a detailed breakdown of the code and its components.This application has several functionalities, including:
 - Generating recipes based on a list of ingredients.
 - Retrieving suggested recipe based on user input.
 - Storing and retrieving recipes from a MongoDB database.
 - Logging activities and handling errors gracefully.
-- 
+  
