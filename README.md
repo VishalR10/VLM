@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [Introduction](#introduction)
-- [Features](#features)
+- [Key Functionalities](#Key-Functionalities)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -27,7 +27,7 @@
 
 The Recipe Suggestion API is a Flask-based application that utilizes Google Custom Search and Google Generative AI to provide unique recipe ideas. It supports storing recipes in MongoDB and offers several endpoints for interacting with the stored data.
 
-## Features
+## Key Functionalities
 
 - **Google API Integration**: Fetch recipes and images using Google APIs.
 - **MongoDB Storage**: Store and retrieve recipes with MongoDB.
