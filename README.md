@@ -19,9 +19,7 @@
 - [API Endpoints](#api-endpoints)
 - [Docker Setup](#docker-setup)
 - [Environment Variables](#environment-variables)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+
 
 ## Introduction
 
@@ -136,3 +134,19 @@ Once the application is running, you can access the API at `http://127.0.0.1:500
 - **Description**:Retrieves stored id specified recipe from the MongoDB database.
 - **Response**: 200 OK: "JSON array of stored recipes."
 - **Response**: 500 Internal Server Error: "Error retrieving recipes id."
+
+## Docker Setup
+
+To run the application using Docker, ensure Docker is installed
+
+- **Build the Docker Image**: Create a Docker image locally.
+- **Run the Docker Container**: Launch application within Docker container.
+
+## Environment Variables
+
+Variable	Description:
+- **GEMINI_API_KEY**:	API key for Google Generative AI.
+- **MONGO_URI**:	MongoDB connection URI.
+- **MONGO_DB**:	Name of the MongoDB database.
+- **SEARCH_ENGINE_ID**:	Google Programmable Search Engine ID.
+- **GOOGLE_API_KEY**:	Google Cloud Console API key.
