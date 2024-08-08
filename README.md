@@ -1,8 +1,5 @@
 <p align="center">
   <picture>
-  <source
-    srcset="https://assets.nucleuscloud.com/neosync/docs/neosync-header.svg"
-  />
 <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
 </picture>
 </p>
