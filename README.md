@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-<img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+<img alt = "ai"src="" />
 </picture>
 </p>
 # Nuvolux - A Food Recipe Generator
