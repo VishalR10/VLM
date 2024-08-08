@@ -44,3 +44,10 @@ Before installing, ensure you have the following dependencies:
 - **Google Cloud Account**: Access to Google APIs
 
 ## Installation
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/recipe-suggestion-api.git
+cd recipe-suggestion-api
+```
