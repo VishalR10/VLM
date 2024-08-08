@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+  <source
+    srcset="https://assets.nucleuscloud.com/neosync/docs/neosync-header.svg"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true" />
+</picture>
+</p>
 # Nuvolux - A Food Recipe Generator
 
 **Nuvolux** is a personalized cooking companion, powered by the Gemini AI API, that helps you discover new recipes, explore flavors, and cook with confidence. By suggesting recipes based on the ingredients you have, it unleashes your culinary creativity. 
