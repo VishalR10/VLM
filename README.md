@@ -85,11 +85,31 @@ python main.py
 
 ## Usage
 
-Once the application is running, you can access the API at `http://127.0.0.1:5010`.
+Once the application is running, you can access the API at `http://127.0.0.1:5000`.
 
 ### Example Requests
 
 - **Health Check**:
   ```bash
-  curl http://127.0.0.1:5010/health_check
+  curl http://127.0.0.1:5000/health_check
   ```
+- **Get Suggested Recipes**:
+  ```bash
+  curl -X POST "http://127.0.0.1:5000/get_suggested_recipes
+  ```
+- **Get Recipes from Database**:
+  ```bash
+  curl -X POST "http://127.0.0.1:5010/get_recipes"
+  ```
+
+## API Endpoints
+
+### /health_check
+- **Method**:GET
+- **Description**:Checks the API's operational status
+- **Response**: 200 OK: "API is up and running."
+
+### /get_recipes
+- **Method**:GET
+- **Description**:Retrieves all stored recipes from the MongoDB database.
+- **Response**: 200 OK: JSON array of stored recipes.
