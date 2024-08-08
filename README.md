@@ -143,10 +143,11 @@ To run the application using Docker, ensure Docker is installed
 - **Run the Docker Container**: Launch application within Docker container.
 
 ## Environment Variables
-
+```
 Variable	Description:
 - **GEMINI_API_KEY**:	API key for Google Generative AI.
 - **MONGO_URI**:	MongoDB connection URI.
 - **MONGO_DB**:	Name of the MongoDB database.
 - **SEARCH_ENGINE_ID**:	Google Programmable Search Engine ID.
 - **GOOGLE_API_KEY**:	Google Cloud Console API key.
+```
