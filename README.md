@@ -97,7 +97,7 @@ Once the application is running, you can access the API at `http://127.0.0.1:500
   ```
 - **Get Recipes from Database**:
   ```bash
-  curl -X POST "http://127.0.0.1:5010/get_recipes"
+  curl -X POST "http://127.0.0.1:5000/recipes"
   ```
 
 ## API Endpoints
