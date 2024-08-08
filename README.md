@@ -1,6 +1,6 @@
 <p align="center">
   <picture>
-<img alt = "ai"src="" />
+<img alt = "ai"src="Desktop - 1 (1).svg" />
 </picture>
 </p>
 # Nuvolux - A Food Recipe Generator
