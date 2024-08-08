@@ -9,10 +9,38 @@
 - **Image Search Integration:** Automatically retrieves a relevant image for each dish from Google Image Search.
 - **User-Friendly Interface:** Simple and intuitive design that focuses on user experience.
 
-## Overview of Code
-  A Flask web application that interacts with a generative AI model, likely Google's Gemini model, to generate and manage recipes based on user input. Here's a detailed breakdown of the code and its components.This application has several functionalities, including:
-- Generating recipes based on a list of ingredients.
-- Retrieving suggested recipe based on user input.
-- Storing and retrieving recipes from a MongoDB database.
-- Logging activities and handling errors gracefully.
-  
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Docker Setup](#docker-setup)
+- [Environment Variables](#environment-variables)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+
+## Introduction
+
+The Recipe Suggestion API is a Flask-based application that utilizes Google Custom Search and Google Generative AI to provide unique recipe ideas. It supports storing recipes in MongoDB and offers several endpoints for interacting with the stored data.
+
+## Features
+
+- **Google API Integration**: Fetch recipes and images using Google APIs.
+- **MongoDB Storage**: Store and retrieve recipes with MongoDB.
+- **Health Check Endpoint**: Quickly verify the API's operational status.
+- **Dockerized Deployment**: Simplify environment setup and scaling with Docker.
+
+## Requirements
+
+Before installing, ensure you have the following dependencies:
+
+- **Python**: Version 3.8 or above
+- **Docker**: For containerized deployment
+- **MongoDB**: Database for storing recipes
+- **Google Cloud Account**: Access to Google APIs
+
+## Installation
