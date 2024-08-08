@@ -95,6 +95,13 @@ Once the application is running, you can access the API at `http://127.0.0.1:500
   ```bash
   curl -X POST "http://127.0.0.1:5000/get_suggested_recipes
   ```
+  ```
+  curl --location 'http://127.0.0.1:5000/get_suggested_recipes' \
+  --header 'Content-Type: application/json' \
+  --data '{
+           "input":["chilli","cheese","salt","pasta","pepper"]
+          }'
+  ```
 - **Get Recipes from Database**:
   ```bash
   curl -X POST "http://127.0.0.1:5000/recipes"
