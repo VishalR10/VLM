@@ -109,7 +109,30 @@ Once the application is running, you can access the API at `http://127.0.0.1:500
 - **Description**:Checks the API's operational status
 - **Response**: 200 OK: "API is up and running."
 
+### /get_suggested_recipes
+- **Method**:POST
+- **Parameters**: Ingredients (required): Comma-separated list of ingredients.
+- **Description**: Fetches recipe suggestions based on the provided ingredients using Google Gemini AI Model.
+- **Response**: 200 OK: JSON array of suggested recipes."
+- **Response**: 400 Bad Request: "Missing ingredients parameter."
+- **Response**: 500 Internal Server Error: "Error processing the request."
+
 ### /get_recipes
+- **Method**:POST
+- **Parameters**: Recipe (required): recipe name
+- **Description**: Fetches recipe based on the provided recipe name using Google Gemini AI Model.
+- **Response**: 200 OK: JSON array of suggested recipes."
+- **Response**: 400 Bad Request: "Missing ingredients parameter."
+- **Response**: 500 Internal Server Error: "Error processing the request."
+
+### /recipes
 - **Method**:GET
 - **Description**:Retrieves all stored recipes from the MongoDB database.
-- **Response**: 200 OK: JSON array of stored recipes.
+- **Response**: 200 OK: "JSON array of stored recipes."
+- **Response**: 500 Internal Server Error: "Error retrieving recipes."
+
+### /recipes/<recipe_id>
+- **Method**:GET
+- **Description**:Retrieves stored id specified recipe from the MongoDB database.
+- **Response**: 200 OK: "JSON array of stored recipes."
+- **Response**: 500 Internal Server Error: "Error retrieving recipes id."
